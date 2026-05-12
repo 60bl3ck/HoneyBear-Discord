@@ -1,0 +1,42 @@
+# HoneyBear-Discord
+
+discord:
+  token: "MTUwMzUyMjA1MzU3MDAzOTk1OA.G1reqT.8W7jd0lmVeBFbXPOCcKh_BDqUNJEv_OowDl6XI"
+  guild-id: "1503521317931192380"
+  channel-id: "1503521371404112003"
+  invite-link: "https://discord.gg/ad4GWTZtuD"
+  verify-message-id: "1503524051476545627"
+
+  # Rola nadawana po pomyślnej weryfikacji.
+  verify-role-id: "1472564608974983300"
+
+  verify-message:
+    title: "HoneyBear"
+    description: "Połącz swoje konto Minecraft z Discordem i odbierz dostęp do społeczności."
+    color: "#c89b3c"
+    button-label: "Połącz konto"
+    modal-title: "Weryfikacja konta"
+    modal-input-label: "Wpisz PIN z gry"
+
+  bot-messages:
+    linked-success: "✅ Konto zostało połączone z graczem **%player%**."
+    invalid-pin: "❌ Podany PIN jest nieprawidłowy albo został już użyty."
+    already-linked-discord: "❌ To konto Discord jest już połączone z innym kontem Minecraft."
+
+messages:
+  prefix: ""
+
+  discord-link: "&#3355ff&lDISCORD &#8f9bb3• &#d7dde8Kliknij &#c89b3c&lTUTAJ &#d7dde8aby dołączyć do serwera"
+  discord-hover: "&#c89b3cKliknij, aby otworzyć zaproszenie Discord."
+
+  pin-message:
+    - "&#3355ff&lWERYFIKACJA &#8f9bb3• &#d7dde8Twój kod PIN: &#c89b3c&l%pin%"
+    - "&#9aa4b2Użyj tego kodu w wiadomości weryfikacyjnej na Discordzie."
+
+  linked-success-game: "&#3355ff&lDISCORD &#8f9bb3• &#7fb069Pomyślnie połączono Twoje konto z Discordem."
+
+  reset-success: "&#7fb069Połączenie discorda z graczem &#c89b3c%player% &#7fb069zostało zresetowane."
+  no-permission: "&#c75c5cNie posiadasz uprawnień do tej komendy."
+  console-denied: "Ta komenda jest dostępna tylko dla gracza."
+  player-not-found: "&#c75c5cNie znaleziono gracza &#c89b3c%player%&#c75c5c."
+  usage-admin: "&#c89b3cUżycie: &#d7dde8/discord &#8f9bb3lub &#d7dde8/discord reset <nick>"
